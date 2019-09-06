@@ -1,1 +1,1 @@
-# Graduation_project
+2018년 11월 졸업작품
