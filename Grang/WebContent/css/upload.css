@@ -1,0 +1,47 @@
+.form{
+	margin-top:150px;
+}
+.tabs { 
+	margin: 0; padding: 0; 
+}
+.tabs li { 
+	list-style-type: none; display: inline-block; background: #c7c7c7; padding: 3px 10px; color: #fff; cursor: pointer; 
+}
+.tabs li:hover { 
+	color: #fff; background: rgb(66,41,56); 
+}      
+.tabs li.active { 
+	color: #fff; background: rgb(66,41,56); 
+}
+.panel { 
+	display:none; background: #fff; border: 1px solid #c7c7c7; padding: 30px; 
+}
+.panel.active { 
+	display:block; 
+}
+.imgs_wrap{
+	width:300px;
+	margin-top:50px;
+}
+.img_wrap img{
+	max-width:200px;
+}
+
+.register-button {  
+    border: 6px solid transparent;
+    border-image: linear-gradient(to right, rgb(196,68,134) 0%, rgb(239,124,125) 100%);
+    border-image-slice: 1;
+    background: #fff;
+    color: #000;
+    font-size: 1em;
+    padding: 3% 39.9%;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.register-button:hover {
+    background-color: white;
+    background: linear-gradient(to right, rgb(196,68,134),rgb(239,124,125));
+    color: #fff;
+}

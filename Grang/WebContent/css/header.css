@@ -1,0 +1,106 @@
+html,body,div,span,h1,h2,h3,h4,p,a,img,
+b,u,i,ol,li,table,tbody,tfoot,thead,tr,th,
+td,footer,header,nav,section{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+#wrap{
+    
+}
+
+@font-face{
+    font-family: BrushScript BT;
+    src:url(../brushscript-bt/BrushScriptBT.ttf);
+}
+@font-face{
+	font-family: NanumSquareRoundL;
+	src:url(../nanumSqureRoundL/NanumSquareRoundL.ttf);
+}
+/*상단 메뉴바*/
+.header{
+	width:100%;
+	height: 90px;
+	background-color: rgb(86, 0, 195);
+	position: fixed;	
+}
+body{
+	width:100%;
+	height:100%;
+}
+
+.header{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:50px;
+	background-color: rgb(86, 0, 195);
+	border-bottom: 1px solid #000;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box; /**/
+	display:inline-block
+}
+.header>.title{
+	position:absolute;
+	line-height: 1em;
+	left:50%;
+	top:13px;
+	margin: 1px 0 0 -28px;
+	text-shadow: 3px 3px 7px #111;
+	width: 56px;
+	height: 40px;
+	text-align:cetner;
+	font-size: 22px;
+	font-weight: bold;
+	color:#fff;
+	font-family: BrushScript BT;
+	
+}
+.button{
+	position: absolute;
+	right: 0.5px;
+	top: 8px;
+	margin:0;
+	margin-top: -5px;
+	padding:0 5px;
+	background: rgb(86,0,195);
+	color:#fff;
+	width: auto;
+	height: 20px;
+	line-height:42px;
+	text-decoration: none;
+}
+/*
+.button:hover{
+	text-decoration: none;
+	color:#fff;
+}
+*/
+.menu{
+	float:left;
+	left:0;
+	padding-left: 15px;
+	width: 32px;
+	font-size: 20px;
+}
+.menu img{
+	width: 30px;
+	padding-top:6px;
+}
+.myfeed{
+	margin-top:0.5px;
+	right:3px;	
+	font-size:2px;
+}
+.pick{
+	margin-top:0.5px;
+	right:15px;
+	font-size:2px;
+}
